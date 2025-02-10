@@ -1,0 +1,23 @@
+# Create
+GET http://127.0.0.1:8000/items/
+
+POST http://127.0.0.1:8000/items/
+
+{
+  "name": "Samsung",
+  "description": "s25",
+  "price": 40000,
+  "tax": 0
+}
+
+# Update
+PUT http://127.0.0.1:8000/items/1
+
+{
+  "name": "iphone",
+  "description": "16",
+  "price": 50000,
+  "tax": 0
+}
+
+DELETE http://127.0.0.1:8000/items/1
